@@ -1,0 +1,98 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body{
+    background-image: url(../img/forest.jpg);
+    background-size: cover;
+}
+
+.form{
+      width: 395px;
+      height: 350px;
+      background:#fff;
+      top:0;
+      bottom: 0;
+      left:0;
+      right:0;
+      margin: auto;
+      position: absolute;
+      padding: 15px;
+      border-radius: 10px;
+      border: 2px solid transparent;
+      box-shadow: 4px 5px 23px 0px;
+}
+
+input{
+      padding: 15px;
+
+}
+
+::placeholder{
+
+    color: grey;
+    font-size: 16px;
+}
+
+.user{
+     width: 365px;
+     height: 50px;
+     margin: auto;
+     border:1px solid #edeeef ;
+     border-radius: 5px;
+     margin-bottom: 10px;
+}
+
+button{
+      width: 100%;
+      height: 50px;
+      margin: auto;
+      margin-bottom: 15px;
+      border: none;
+      border-radius: 5px;
+      background: #1877f2;
+}
+
+.login{
+      border: none;
+      padding: 0;
+      background: #1877f2;
+      font-size: 20px;
+      color: #d3ffff;
+      font-weight: 600;
+}
+
+.btn1{
+      text-align: center;
+      margin-bottom: 5px;
+}
+
+.btn1 a{
+      color: #1c88f4;
+      text-decoration: none;
+      font-size: 15px;
+}
+
+hr{
+      border: 1px solid #f0f1f2;
+      margin-bottom: 30px;
+}
+
+.btn2{
+      width: 200px;
+      height: 50px;
+      background:#42b72a ;
+      margin: auto;
+      border-radius: 5px;
+      padding: 15px;
+      text-align: center;
+}
+
+.btn2 a{
+      text-decoration: none;
+      color: #ffffff;
+      font-size: 19px;
+      font-weight: 700;
+}
